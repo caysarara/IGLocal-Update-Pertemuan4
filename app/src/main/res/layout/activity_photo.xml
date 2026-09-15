@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvPhotoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/photo_title"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/viewDividerPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/tvPhotoTitle"
+        android:layout_marginTop="12dp"
+        android:background="#DDDDDD" />
+
+    <ImageView
+        android:id="@+id/ivProfilePhoto"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_below="@id/viewDividerPhoto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/account_circle"
+        app:tint="#666666" />
+
+    <TextView
+        android:id="@+id/tvUsernamePhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivProfilePhoto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/username"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/back" />
+
+</RelativeLayout>

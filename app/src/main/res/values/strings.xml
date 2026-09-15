@@ -9,4 +9,11 @@
     <string name="bio_content">Hobi mendaki dan menelusuri alam</string>
     <string name="edit_profile">Edit Profile</string>
     <string name="share_profile">Share profile</string>
+
+    <string name="edit_profile_title">Edit Profile</string>
+    <string name="name_hint">Nama</string>
+    <string name="bio_hint">Bio</string>
+    <string name="save">Simpan</string>
+    <string name="photo_title">Foto Profil</string>
+    <string name="back">Kembali</string>
 </resources>
